@@ -1,0 +1,18 @@
+.image-info-item {
+    width: 400px;
+    clear:both;
+    margin-bottom: 120px;
+    padding: 1px;
+}
+
+.item-image {
+    float:left;
+}
+
+.item-description{
+    width: 200px;
+    float:right;
+}
+
+
+
