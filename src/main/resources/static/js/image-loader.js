@@ -16,7 +16,7 @@ let loadImageInfo = function () {
                 console.error(xhr.status + ': ' + xhr.statusText);
             } else {
                 let imageInfoArray = JSON.parse((xhr.responseText));
-                new ImageInfo(document.body, imageInfoArray);
+                new ImageInfoHandler(document.body, imageInfoArray);
             }
         };
 

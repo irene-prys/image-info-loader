@@ -1,6 +1,6 @@
 'use strict'
 
-class ImageDetails {
+class ImageDetailsComponent {
     constructor(details) {
         this._imageId = details.imageId;
         this._title = details.title;

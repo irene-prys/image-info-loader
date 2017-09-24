@@ -1,6 +1,6 @@
 'use strict';
 
-class ImageInfo {
+class ImageInfoHandler {
     constructor(element, imageInfoArray){
         this._el = element;
         this._render(imageInfoArray);
@@ -8,7 +8,7 @@ class ImageInfo {
 
     _render(imageInfoArray){
         imageInfoArray.forEach((imageInfo) => {
-            this._el.appendChild((new ImageInfoItem(imageInfo)).element);
+            this._el.appendChild((new ImageInfoItemComponent(imageInfo)).element);
         });
     }
 

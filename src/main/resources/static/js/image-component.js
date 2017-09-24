@@ -1,6 +1,6 @@
 'use strict'
 
-class Image {
+class ImageComponent {
     constructor(imageUrl, thumbnailUrl) {
         this._imageUrl = imageUrl;
         this._thumbnailUrl = thumbnailUrl;
