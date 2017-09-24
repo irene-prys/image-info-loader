@@ -19,8 +19,6 @@ class ImageInfoItemComponent {
         let imageDescription = (new ImageDetailsComponent({imageId: imageInfo.id, title: imageInfo.title, albumId: imageInfo.albumId})).element;
         imageDescription.classList.add(CLASS_DESCRIPTION);
         this._el.appendChild(imageDescription);
-
-
     }
 
     get element() {
