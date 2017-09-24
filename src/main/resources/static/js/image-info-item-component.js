@@ -11,7 +11,7 @@ class ImageInfoItemComponent {
         let CLASS_ITEM = 'image-info-item';
 
         this._el = document.createElement('div');
-         this._el.classList.add(CLASS_ITEM);
+        this._el.classList.add(CLASS_ITEM);
 
         let imageElement = (new ImageComponent(imageInfo.url, imageInfo.thumbnailUrl)).element;
         imageElement.classList.add(CLASS_IMAGE);
